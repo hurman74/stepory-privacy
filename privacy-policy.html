@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Stepory</title>
+    <style>
+        :root {
+            --bg: #fafafa;
+            --surface: #ffffff;
+            --text: #1a1a1a;
+            --text-muted: #5f5f5f;
+            --accent: #2e7d32;
+            --border: #e0e0e0;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 24px 20px 48px;
+        }
+        header {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            padding: 24px 20px;
+            margin-bottom: 24px;
+        }
+        header .wrap {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 0 0 4px 0;
+            color: var(--text);
+        }
+        .subtitle {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin: 0;
+        }
+        main {
+            background: var(--surface);
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            padding: 32px 28px;
+        }
+        h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin: 28px 0 12px 0;
+            color: var(--text);
+        }
+        h2:first-child { margin-top: 0; }
+        p, li {
+            margin: 0 0 10px 0;
+            color: var(--text);
+            font-size: 0.95rem;
+        }
+        ul {
+            margin: 8px 0 16px 0;
+            padding-left: 1.4em;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+        .updated {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #121212;
+                --surface: #1e1e1e;
+                --text: #e3e3e3;
+                --text-muted: #a0a0a0;
+                --border: #2c2c2c;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <h1>Stepory</h1>
+            <p class="subtitle">Privacy Policy</p>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <p class="updated"><strong>Last updated:</strong> January 30, 2025</p>
+
+            <p>This Privacy Policy describes how Stepory ("we," "our," or "the app") collects, uses, and shares information when you use our Android step-tracking application available on Google Play.</p>
+
+            <h2>1. Information We Collect</h2>
+
+            <p><strong>Account and profile information</strong></p>
+            <ul>
+                <li>Email address (when you sign in with email or Google)</li>
+                <li>Display name and profile photo (optional)</li>
+                <li>Bio and other profile details you choose to add</li>
+            </ul>
+
+            <p><strong>Step and activity data</strong></p>
+            <ul>
+                <li>Daily, weekly, and monthly step counts from your device (step sensor and/or Health Connect)</li>
+                <li>Step history used for leaderboards, challenges, and achievements</li>
+                <li>This data is stored on your device and, if you are signed in, synced to our servers to support groups and leaderboards</li>
+            </ul>
+
+            <p><strong>Location data</strong></p>
+            <ul>
+                <li>Approximate location is used only to provide weather information (e.g., rain notifications) on the home screen</li>
+                <li>Location is not stored on our servers; it is used only to request weather from a third-party weather service</li>
+            </ul>
+
+            <p><strong>Usage and technical data</strong></p>
+            <ul>
+                <li>Crash reports and basic diagnostics (e.g., via Firebase Crashlytics) to improve app stability</li>
+                <li>Device type and app version for compatibility and support</li>
+            </ul>
+
+            <h2>2. How We Use Your Information</h2>
+            <ul>
+                <li>To provide step tracking, goals, and analytics</li>
+                <li>To run leaderboards, groups, challenges, and achievements</li>
+                <li>To allow you to find and add friends (e.g., by email) and invite others via link</li>
+                <li>To show weather (e.g., rain) relevant to your location</li>
+                <li>To authenticate your account and keep it secure</li>
+                <li>To fix crashes and improve the app</li>
+            </ul>
+
+            <h2>3. Data Storage and Third-Party Services</h2>
+            <p>We use the following services to operate the app:</p>
+            <ul>
+                <li><strong>Firebase (Google)</strong> – Authentication, Firestore database, Cloud Storage (e.g., profile photos), and Crashlytics. Data is processed according to Google’s privacy policy and Firebase terms.</li>
+                <li><strong>Google Sign-In</strong> – To let you sign in with your Google account.</li>
+                <li><strong>Health Connect (Google)</strong> – If you enable it, we read (and optionally write) step data from Health Connect to improve step accuracy. Use of Health Connect is optional and subject to your device and Health Connect settings.</li>
+                <li><strong>Open-Meteo</strong> – Weather data (e.g., rain) based on your location. No account or API key is required; requests are made from the app using approximate location.</li>
+            </ul>
+            <p>We do not sell your personal data to third parties.</p>
+
+            <h2>4. Permissions We Request</h2>
+            <p>The app may request these permissions:</p>
+            <ul>
+                <li><strong>Activity recognition</strong> – To count steps using the device sensor</li>
+                <li><strong>Location (approximate)</strong> – To show weather and rain notifications</li>
+                <li><strong>Health Connect (read/write steps)</strong> – Optional; for more accurate step data when you enable Health Connect</li>
+                <li><strong>Notifications</strong> – To send you reminders and app-related alerts</li>
+                <li><strong>Internet / network</strong> – To sync data and load weather</li>
+            </ul>
+
+            <h2>5. Your Choices and Rights</h2>
+            <ul>
+                <li>You can control who sees your activity and leaderboard presence in <strong>Settings → Privacy</strong> (e.g., everyone, friends only, or nobody).</li>
+                <li>You can disable Health Connect or use only the device step sensor in app settings.</li>
+                <li>You can turn off weather on the dashboard in settings.</li>
+                <li>You may request deletion of your account and associated data. In the app, use the account deletion option in Settings. We will delete your profile, step history, achievements, and other data we store; some data may remain in backups for a limited time, after which it is removed.</li>
+            </ul>
+            <p>If you are in the European Economic Area (EEA), UK, or other regions with similar laws, you may have additional rights (e.g., access, correction, restriction, portability, objection). To exercise them, contact us using the details below.</p>
+
+            <h2>6. Data Security</h2>
+            <p>We use industry-standard practices (including Firebase security rules and secure authentication) to protect your data. No method of transmission or storage is 100% secure; we cannot guarantee absolute security.</p>
+
+            <h2>7. Children</h2>
+            <p>Stepory is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe we have collected such data, please contact us so we can delete it.</p>
+
+            <h2>8. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will post the revised policy in the app or on this page and update the "Last updated" date. Continued use of the app after changes means you accept the updated policy.</p>
+
+            <h2>9. Contact Us</h2>
+            <p>For privacy-related questions, data requests, or to report issues, please contact us at:</p>
+            <!-- Replace with your support or privacy email before publishing -->
+            <p><strong>privacy@stepory.app</strong></p>
+        </main>
+    </div>
+</body>
+</html>
